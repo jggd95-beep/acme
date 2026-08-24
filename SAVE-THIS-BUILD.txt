@@ -1,0 +1,24 @@
+Acme HVAC Quotes — COMPLETE SAVE
+================================
+Built: Sun, Aug 23, 2026, 7:34 PM
+Label: ACME-HVAC-MB-COMPLETE-20260823-1934.zip
+
+This is a FULL restore of Mike's baby as of this moment.
+Upload this zip only — no extra files.
+
+WHAT IS IN HERE
+- Full app source (src/, public/, scripts/, server/, migrations/)
+- Guided quote, Quotes home, packet, PDF, Backend
+- Water heater / wall / heat pump / furnace / AH paths
+- package.json, lockfile, vite, tsconfig, startup.sh
+- AGENTS.project.md + BUILD-IDENTITY.md
+
+NOT IN HERE (normal)
+- node_modules — run npm install after unzip
+- Old zip piles, phone screenshots, Salesforce dumps
+
+HOW TO RESTORE
+1. Upload ONLY this zip
+2. Unzip so package.json sits next to src/
+3. npm install
+4. npm run dev   (or: sh startup.sh)
